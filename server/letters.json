@@ -1,0 +1,90 @@
+[
+  {
+    "id": "original",
+    "status": "approved",
+    "subject": "Urgent request to help a stateless man reach Canada",
+    "body": "Dear {mpName},\n\nI am writing as a constituent of {riding} to ask for your help with the permanent residence application of Teodoro Luis Castell, a stateless man who is being privately sponsored to come to Canada by Northbridge Newcomer Alliance, a Canadian nonprofit.\n\nTeo was born stateless. He has no passport and no citizenship in any country, and he lives in Lisbon on a temporary humanitarian permit that must be renewed each year. Northbridge Newcomer Alliance submitted his complete application under private sponsorship, but after 11 months it remains in security screening, and no additional information has been provided.\n\nHis sponsors have been ready since March 2026, with housing and settlement support in place. Every month of delay is another month in which Teo has no country to call home and no secure future.\n\nPlease contact Immigration, Refugees and Citizenship Canada and the Minister of Immigration’s office to ask for an update on Mr. Castell’s application and to request that it be reviewed as soon as possible.\n\nCanada has a proud history of welcoming refugees through private sponsorship. I hope you will help Teo become part of it.\n\nI would appreciate hearing what steps your office can take.\n\nThank you for your time.\n\nSincerely,\n\n{firstName} {lastName}\n{street}\n{city}, {province} {postalCode}"
+  },
+  {
+    "id": "home-original",
+    "status": "approved",
+    "ridings": [
+      "Ottawa Centre"
+    ],
+    "subject": "Help for a stateless man sponsored from your riding",
+    "body": "Dear {mpName},\n\nI am writing as a constituent of {riding}, where Northbridge Newcomer Alliance is based, to ask for your help with the permanent residence application of Teodoro Luis Castell, a stateless man the Alliance is privately sponsoring to come to Canada.\n\nTeo was born stateless. He has no passport and no citizenship in any country, and he lives in Lisbon on a temporary humanitarian permit that must be renewed each year. His complete application was submitted under private sponsorship, but after 11 months it remains in security screening, and no additional information has been provided.\n\nHis sponsors here in our riding have been ready since March 2026, with housing and settlement support in place. Every month of delay is another month in which Teo has no country to call home.\n\nAs the MP for the riding where his sponsors are based, please contact Immigration, Refugees and Citizenship Canada and the Minister of Immigration’s office to ask for an update on Mr. Castell’s application and to request that it be reviewed as soon as possible.\n\nI would appreciate hearing what steps your office can take.\n\nThank you for your time.\n\nSincerely,\n\n{firstName} {lastName}\n{street}\n{city}, {province} {postalCode}"
+  },
+  {
+    "id": "home-002",
+    "status": "approved",
+    "generated": true,
+    "ridings": [
+      "Ottawa Centre"
+    ],
+    "subject": "Our riding is ready to welcome Teo Castell",
+    "body": "Dear {mpName},\n\nOur community in {riding} is ready to welcome Teo Castell, and I am writing as a constituent to ask for your help getting his application moving. Teo is stateless, and Northbridge Newcomer Alliance, a nonprofit based here in our riding, is sponsoring him.\n\nThe Alliance submitted his complete permanent residence application through private sponsorship. Eleven months later it is still in security screening, with no additional information provided. Since March 2026, housing and settlement support have been waiting for him.\n\nTeo has never held citizenship anywhere. He has no passport and lives in Lisbon on a temporary humanitarian permit that he must renew every year. No other country is waiting to take him in.\n\nAs our MP, please contact Immigration, Refugees and Citizenship Canada and the Minister of Immigration’s office to ask about the status of his application and to have it reviewed as soon as possible.\n\nSincerely,\n\n{firstName} {lastName}\n{street}\n{city}, {province} {postalCode}"
+  },
+  {
+    "id": "gen-001",
+    "status": "approved",
+    "generated": true,
+    "subject": "Please help move Teo Castell’s application forward",
+    "body": "Dear {mpName},\n\nI am a constituent of {riding}, and I am asking for your help with the permanent residence application of Teo Castell, a stateless man privately sponsored by Northbridge Newcomer Alliance, a Canadian nonprofit.\n\nTeo has never had a country. Born stateless, he holds no passport and no citizenship, and he lives in Lisbon on a temporary humanitarian permit renewed each year. His complete application was submitted through private sponsorship, yet it has been in security screening for 11 months, and no additional information has been provided.\n\nHis sponsors have had housing and settlement support ready since March 2026. Without citizenship, he cannot travel freely, work securely, or plan a future, and each month of waiting is another month without protection.\n\nPlease contact Immigration, Refugees and Citizenship Canada and the Minister of Immigration’s office to ask for the status of his application and to have it reviewed as soon as possible. I would be grateful to hear back from your office.\n\nSincerely,\n\n{firstName} {lastName}\n{street}\n{city}, {province} {postalCode}"
+  },
+  {
+    "id": "gen-002",
+    "status": "approved",
+    "generated": true,
+    "subject": "A stateless man is waiting on Canada",
+    "body": "Dear {mpName},\n\nNorthbridge Newcomer Alliance, a Canadian nonprofit, is privately sponsoring a stateless man named Teo Castell to come to Canada. As a constituent of {riding}, I am asking for your help to move his application forward.\n\nTeo was born without citizenship and has no passport. He lives in Lisbon on a temporary humanitarian permit that must be renewed every year, with no country he can return to.\n\nHis complete permanent residence application was submitted through private sponsorship. After 11 months, it remains in security screening, and no additional information has been provided. His sponsors have been ready to receive him since March 2026, with housing and settlement support in place.\n\nCanada can do better by stateless people. When a community stands ready and the paperwork is complete, it is hard to understand why reaching Canada should be this difficult.\n\nPlease contact Immigration, Refugees and Citizenship Canada and the Minister of Immigration’s office to check the status of Mr. Castell’s application and ask that it be reviewed as soon as possible.\n\nThank you,\n\nSincerely,\n\n{firstName} {lastName}\n{street}\n{city}, {province} {postalCode}"
+  },
+  {
+    "id": "gen-003",
+    "status": "approved",
+    "generated": true,
+    "subject": "Request for your help: Teo Castell’s permanent residence application",
+    "body": "Dear {mpName},\n\nAs a constituent of {riding}, I am writing to respectfully ask for your help with the permanent residence application of Teodoro Luis Castell. Mr. Castell is stateless and is being privately sponsored by Northbridge Newcomer Alliance, a Canadian nonprofit.\n\nThe application was submitted complete under private sponsorship. It has now been held in security screening for 11 months, and no additional information has been provided to the applicant or his sponsors.\n\nMr. Castell has been stateless since birth. He has no passport and no citizenship, and he currently lives in Lisbon on a temporary humanitarian permit that is renewed annually. His sponsors have had housing and settlement support in place since March 2026.\n\nI believe Canada should keep its door open to stateless people, and that a fair process includes a timely one. Canada’s proud record of welcoming refugees through private sponsorship depends on applications like this one moving forward.\n\nI ask that you contact Immigration, Refugees and Citizenship Canada and the Minister of Immigration’s office to request a status update on Mr. Castell’s application and a review as soon as possible.\n\nThank you for your attention to this matter.\n\nSincerely,\n\n{firstName} {lastName}\n{street}\n{city}, {province} {postalCode}"
+  },
+  {
+    "id": "gen-004",
+    "status": "approved",
+    "generated": true,
+    "subject": "Eleven months in security screening for a stateless man",
+    "body": "Dear {mpName},\n\nI am writing as a constituent of {riding} because Teo Castell, a stateless man, has been waiting 11 months for Canada to finish screening his application. Northbridge Newcomer Alliance, a Canadian nonprofit, is privately sponsoring him, and I am asking for your help to move his case forward.\n\nHis permanent residence application was submitted complete. It has sat in security screening ever since, and no additional information has been provided.\n\nTeo has no passport and no citizenship anywhere. He lives in Lisbon on a temporary humanitarian permit that he must renew each year. Meanwhile, his sponsors have had housing and settlement support ready since March 2026.\n\nWe must stand by people with no country to call home. Every month of delay is another month without protection.\n\nPlease contact Immigration, Refugees and Citizenship Canada and the Minister of Immigration’s office about the status of his application and ask that it be reviewed as soon as possible.\n\nSincerely,\n\n{firstName} {lastName}\n{street}\n{city}, {province} {postalCode}"
+  },
+  {
+    "id": "gen-005",
+    "status": "approved",
+    "generated": true,
+    "subject": "Teo Castell has no country to return to",
+    "body": "Dear {mpName},\n\nTeo Castell was born stateless and has never held citizenship anywhere. I am a constituent of {riding}, and I am asking for your help with his application to come to Canada, where Northbridge Newcomer Alliance, a Canadian nonprofit, is privately sponsoring him.\n\nToday Teo lives in Lisbon on a temporary humanitarian permit that has to be renewed each year. He has no passport, and no country to go back to.\n\nSince March 2026, his sponsors have had housing and settlement support ready for him. His complete permanent residence application, submitted through private sponsorship, has been in security screening for 11 months, and no additional information has been provided.\n\nThis delay fails someone who has no other country to turn to. Why should it be so hard for him to reach Canada when his sponsors stand ready?\n\nI ask that you contact Immigration, Refugees and Citizenship Canada and the Minister of Immigration’s office to find out the status of his application and to request a review as soon as possible.\n\nWith thanks,\n\nSincerely,\n\n{firstName} {lastName}\n{street}\n{city}, {province} {postalCode}"
+  },
+  {
+    "id": "gen-006",
+    "status": "approved",
+    "generated": true,
+    "subject": "Asking for your support for Teo Castell",
+    "body": "Dear {mpName},\n\nI hope you are well. I am a constituent of {riding}, and I would be grateful for your help with the case of Teo Castell, a stateless man who is being privately sponsored to come to Canada by Northbridge Newcomer Alliance, a Canadian nonprofit.\n\nTeo has never had citizenship or a passport. He lives in Lisbon on a temporary humanitarian permit, renewed each year, and has no country of his own.\n\nHis sponsors filed his complete permanent residence application through private sponsorship, and they have been ready to welcome him since March 2026, with housing and settlement support arranged. Yet after 11 months, the application remains in security screening, and no additional information has been provided.\n\nCanada has a proud record of welcoming refugees through private sponsorship, and I would like to see that record extend to Teo.\n\nCould you please contact Immigration, Refugees and Citizenship Canada and the Minister of Immigration’s office to ask about his application’s status and request that it be reviewed as soon as possible? I would appreciate hearing back from your office.\n\nThank you,\n\nSincerely,\n\n{firstName} {lastName}\n{street}\n{city}, {province} {postalCode}"
+  },
+  {
+    "id": "gen-007",
+    "status": "approved",
+    "generated": true,
+    "subject": "Help a sponsored stateless man reach Canada",
+    "body": "Dear {mpName},\n\nI am writing to ask for your help. Northbridge Newcomer Alliance, a Canadian nonprofit, is privately sponsoring Teo Castell, a stateless man, and his application has stalled. I am a constituent of {riding}.\n\nTeo’s complete permanent residence application has been in security screening for 11 months. No additional information has been provided.\n\nHe was born stateless, has no passport, and lives in Lisbon on a temporary humanitarian permit that must be renewed every year. His sponsors have had housing and settlement support ready since March 2026.\n\nCanada should keep its door open to stateless people, especially when a community is ready to welcome them.\n\nPlease contact Immigration, Refugees and Citizenship Canada and the Minister of Immigration’s office to ask for the status of his application and a review as soon as possible.\n\nSincerely,\n\n{firstName} {lastName}\n{street}\n{city}, {province} {postalCode}"
+  },
+  {
+    "id": "gen-008",
+    "status": "approved",
+    "generated": true,
+    "subject": "Concern about delays in a private sponsorship case",
+    "body": "Dear {mpName},\n\nAs a constituent of {riding}, I am writing about the permanent residence application of Teodoro Luis Castell, a stateless man privately sponsored by Northbridge Newcomer Alliance, a Canadian nonprofit, and to ask for your help in moving it forward.\n\nMy concern is the length and silence of the process. The application was submitted complete, yet it has remained in security screening for 11 months, and no additional information has been provided to explain the delay.\n\nMr. Castell has been stateless since birth, holds no passport, and lives in Lisbon on a temporary humanitarian permit renewed each year. His sponsors have had housing and settlement support in place since March 2026.\n\nWithout citizenship, he cannot travel freely, work securely, or plan a future. A process that leaves a stateless person waiting this long, with no word on why, falls short of what Canada can do.\n\nI respectfully ask that you contact Immigration, Refugees and Citizenship Canada and the Minister of Immigration’s office to request an update on his application and ask that it be reviewed as soon as possible.\n\nThank you for your consideration.\n\nSincerely,\n\n{firstName} {lastName}\n{street}\n{city}, {province} {postalCode}"
+  },
+  {
+    "id": "gen-009",
+    "status": "approved",
+    "generated": true,
+    "subject": "Teo Castell’s sponsors are ready. His application isn’t moving.",
+    "body": "Dear {mpName},\n\nI am a constituent of {riding}, writing to ask for your help with the application of Teo Castell, a stateless man whom Northbridge Newcomer Alliance, a Canadian nonprofit, is privately sponsoring to come to Canada.\n\nHis sponsors did everything asked of them. They submitted his complete permanent residence application and, since March 2026, have had housing and settlement support ready. After 11 months, the application is still in security screening, and no additional information has been provided.\n\nTeo, meanwhile, waits in Lisbon on a temporary humanitarian permit that must be renewed each year. Born stateless, he has no passport and no citizenship anywhere.\n\nThe community is ready to welcome him, and you can help.\n\nPlease contact Immigration, Refugees and Citizenship Canada and the Minister of Immigration’s office to ask for the status of Mr. Castell’s application and to have it reviewed as soon as possible.\n\nThank you for your help.\n\nSincerely,\n\n{firstName} {lastName}\n{street}\n{city}, {province} {postalCode}"
+  }
+]

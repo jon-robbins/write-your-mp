@@ -1,0 +1,33 @@
+# Cloud Run service definition, for `gcloud run services replace deploy/cloudrun-service.yaml`.
+# Replace PROJECT_ID and REGION, and build the image first (see docs/deploy.md). Not deployed anywhere.
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: write-your-mp
+  annotations:
+    run.googleapis.com/ingress: all
+    run.googleapis.com/invoker-iam-disabled: "true"
+spec:
+  template:
+    metadata:
+      annotations:
+        autoscaling.knative.dev/minScale: "0"
+        # OpenNorth allows 60 lookups a minute per server; a small cap also bounds cost.
+        autoscaling.knative.dev/maxScale: "2"
+    spec:
+      # An account with no IAM roles: the app calls no Google APIs.
+      serviceAccountName: write-your-mp-runtime@PROJECT_ID.iam.gserviceaccount.com
+      timeoutSeconds: 15
+      containerConcurrency: 80
+      containers:
+        - image: REGION-docker.pkg.dev/PROJECT_ID/write-your-mp/app:latest
+          ports:
+            - containerPort: 8080
+          env:
+            # Sites allowed to embed the tool in an iframe. Leave empty to allow only the service itself.
+            - name: FRAME_ANCESTORS
+              value: ""
+          resources:
+            limits:
+              cpu: "1"
+              memory: 512Mi

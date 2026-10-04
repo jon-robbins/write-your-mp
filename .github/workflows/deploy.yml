@@ -1,0 +1,39 @@
+name: Deploy to Cloud Run
+
+# Manual only: this portfolio copy is not deployed. To run it for real, create the Google Cloud resources
+# in docs/deploy.md, set the repository variables below, and run this workflow from the Actions tab
+# (or add `push: branches: [main]` to deploy every merge).
+# Google Cloud trusts this repository through Workload Identity Federation, so no keys are stored here.
+# Actions are pinned to commit SHAs so a moved tag cannot change what runs with deploy rights.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    env:
+      PROJECT_ID: ${{ vars.GCP_PROJECT_ID }}
+      REGION: ${{ vars.GCP_REGION }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: google-github-actions/auth@c200f3691d83b41bf9bbd8638997a462592937ed # v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ vars.GCP_DEPLOY_SERVICE_ACCOUNT }}
+      - uses: google-github-actions/setup-gcloud@e427ad8a34f8676edf47cf7d7925499adf3eb74f # v2
+      - name: Build the image and deploy
+        run: >-
+          gcloud run deploy write-your-mp --source . --project="$PROJECT_ID" --region="$REGION"
+          --no-invoker-iam-check --ingress=all --min-instances=0 --max-instances=2 --memory=512Mi --cpu=1 --timeout=15s
+          --service-account="write-your-mp-runtime@$PROJECT_ID.iam.gserviceaccount.com"
+          --set-env-vars="FRAME_ANCESTORS=${{ vars.FRAME_ANCESTORS }}" --quiet
